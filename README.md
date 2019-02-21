@@ -16,7 +16,7 @@ iconfonttojson [input iconfont.css path] [output file name]
 # Example
 ```css
 @font-face {
-font-family: "iconfont";
+  font-family: "iconfont";
 }
 
 .iconfont {
@@ -54,7 +54,7 @@ font-family: "iconfont";
 
 ```
 return
-```
+```js
 export default {
   "icon-bqxin": 59019,
   "icon-sousuo-copy": 58923,
