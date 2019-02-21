@@ -31,8 +31,9 @@ class Iconfont {
       }
     })
 
+    let outPut = `export default ${JSON.stringify(outputJson, null, 2)}`
 
-    fs.writeFileSync(path.resolve(fpath, '../', options.outputFileName), JSON.stringify(outputJson, null, 2))
+    fs.writeFileSync(path.resolve(fpath, '../', options.outputFileName), outPut)
 
 
   }

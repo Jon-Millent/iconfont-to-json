@@ -1,6 +1,6 @@
 {
   "name": "iconfont-to-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "转换iconfont字体图标10进制json文件",
   "main": "index.js",
   "bin": {

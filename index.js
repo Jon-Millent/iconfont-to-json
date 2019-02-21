@@ -20,7 +20,7 @@ if(ConsoleArguments.length === 0) {
 
 
 let config = {
-  outputFileName: ConsoleArguments[1] || 'iconfont.json'
+  outputFileName: ConsoleArguments[1] || 'iconfont.js'
 }
 
 new Iconfont().render(ConsoleArguments[0], config)
