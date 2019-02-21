@@ -14,6 +14,11 @@ iconfonttojson [input iconfont.css path] [output file name]
 ```
 
 # Example
+
+```
+iconfonttojson ./iconfont.css
+```
+
 ```css
 @font-face {
   font-family: "iconfont";
