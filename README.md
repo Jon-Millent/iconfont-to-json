@@ -1,5 +1,5 @@
 # iconfont-to-json
-转换iconfont字体图标10进制json文件
+为react-native项目的react-native-vector-icons转换iconfont字体图标10进制json文件
 
 # Install
 
